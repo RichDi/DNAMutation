@@ -12,12 +12,20 @@ Paso 1:
     
 Paso 2:
 
-    Instalar las Dependencias de Django
+    Crear el entorno virtual
 
     Para hacer una instalacion limpia, lo mejor es instalar las dependencias en un entorno virtual
 
         $ virtualenv .venv
         $ source .venv/bin/activate
+
+Paso 3:
+
+    Instalar Django
+
+        $ pip install django
+
+Paso 4:
 
     Ejecutar el servidor
 
